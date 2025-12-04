@@ -1,9 +1,9 @@
 # JS-Fundamentals
 This repo is for javascript fundamentals mini-projects
 
-<u>Weekly log</u>
+**Weekly log**
 
-##Week 3 Log
+#Week 3 Log
 Basic tasks interacting with JS environment. 
     *Displaying text to the console
     *Conditional if, else if statements
