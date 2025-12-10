@@ -4,8 +4,6 @@ let elements = [1, 2, 3]; //anchor for looping
 let i = 0;
 
 do {
-    console.log('C is fun');
-    console.log('Python is cool');
-    console.log('JavaScript is amazing');
+    console.log('C is fun\nPython is cool\nJavaScript is amazing');
 }
 while (i > elements.length)
