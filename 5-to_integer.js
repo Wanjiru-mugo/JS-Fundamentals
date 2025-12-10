@@ -2,9 +2,15 @@
 const {argv} = require('node:process'); //destructuring assignment
 const { isNumberObject } = require('node:util/types');
 const firstUserArgument = argv[2];
-if ((firstUserArgument === ('node:isNumberObject')) || (firstUserArgument === undefined)) {
+if (firstUserArgument === undefined) {
     console.log('Not a number');
 }
 else {
-    console.log(firstUserArgument);
+    let convertedUserArgv = parseInt(firstUserArgument);
+    if (isNaN(convertedUserArgv)) {
+        console.log('Not a number');
+    }
+    else {
+        console.log(`My number: ${convertedUserArgv}`);
+    }
 }
