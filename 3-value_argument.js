@@ -2,13 +2,12 @@
 const argvPassed = require('node:process'); //import process module
 const argv = argvPassed.argv; //import the arguments vector array from process module
 
-//print array element using array loop
-argv.forEach(value, index => {
-    if (value == '') {
-        console.log('No argument');
-    }
-    else     
-        {
-        console.log(value.index[2]);
-    }
-})
+//print first argument but first we index it 
+const firstUserArgument = argv[2]; 
+//the condition
+if (firstUserArgument === undefined) {
+    console.log('No argument');
+}
+else {
+    console.log(firstUserArgument);
+}
