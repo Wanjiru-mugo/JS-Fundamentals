@@ -5,7 +5,7 @@ const convertedNumber = parseInt(firstUserArgument, 10); //converting 1st argume
 if (isNaN(convertedNumber)) {
     console.log('Missing number of occurrences');
 }
-else {
+else if (convertedNumber > 0){
     let output = '';
     for (let x = 0; x < convertedNumber; x++) {
         output += 'C is fun';
