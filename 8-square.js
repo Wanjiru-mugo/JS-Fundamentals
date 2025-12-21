@@ -16,7 +16,7 @@ else if (convertedUserArgument > 0) {
         let output = '';
         //inner loop for the column
         while (i < convertedUserArgument) {
-            output += 'x';
+            output += 'X';
             i++;
         }
         console.log(output);
