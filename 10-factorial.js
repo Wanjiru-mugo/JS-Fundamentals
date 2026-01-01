@@ -3,7 +3,7 @@
 const {argv} = require('node:process');
 firstUserArgument = argv[2];
 
-const factorial = a => {
+function factorial(a) {
     if (a <= 1) {
         return 1;
     } 
