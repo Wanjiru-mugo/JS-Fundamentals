@@ -13,7 +13,7 @@ Basic tasks interacting with JS environment:
 
 ## Concepts covered  
 
-**1. process.argv**
+**1. process.argv**  
 -Understood the array structure process.argv, where [0] is the Node path, [1] is the script path, and [2]+ are user arguments.  
 -Mastered the logic that userArgsCount = argv.length - 2  
 -Understood the destructuring assignment const {argv} = require('node: process') to extract the tool (argv) from the system toolbox (process module).  
